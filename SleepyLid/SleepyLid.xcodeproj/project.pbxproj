@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54B067CD22B6EBF2002BBCAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B067CC22B6EBF2002BBCAA /* AppDelegate.swift */; };
+		54B067CF22B6EBF2002BBCAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B067CE22B6EBF2002BBCAA /* ViewController.swift */; };
+		54B067D122B6EBF3002BBCAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B067D022B6EBF3002BBCAA /* Assets.xcassets */; };
+		54B067D422B6EBF3002BBCAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B067D222B6EBF3002BBCAA /* Main.storyboard */; };
+		54B067E022B6EBF4002BBCAA /* SleepyLidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B067DF22B6EBF4002BBCAA /* SleepyLidTests.swift */; };
+		54B067EB22B6EBF4002BBCAA /* SleepyLidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B067EA22B6EBF4002BBCAA /* SleepyLidUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54B067DC22B6EBF4002BBCAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54B067C122B6EBF2002BBCAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54B067C822B6EBF2002BBCAA;
+			remoteInfo = SleepyLid;
+		};
+		54B067E722B6EBF4002BBCAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54B067C122B6EBF2002BBCAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54B067C822B6EBF2002BBCAA;
+			remoteInfo = SleepyLid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54B067C922B6EBF2002BBCAA /* SleepyLid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepyLid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B067CC22B6EBF2002BBCAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54B067CE22B6EBF2002BBCAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54B067D022B6EBF3002BBCAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54B067D322B6EBF3002BBCAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54B067D522B6EBF3002BBCAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54B067DB22B6EBF4002BBCAA /* SleepyLidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepyLidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B067DF22B6EBF4002BBCAA /* SleepyLidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyLidTests.swift; sourceTree = "<group>"; };
+		54B067E122B6EBF4002BBCAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54B067E622B6EBF4002BBCAA /* SleepyLidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepyLidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B067EA22B6EBF4002BBCAA /* SleepyLidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyLidUITests.swift; sourceTree = "<group>"; };
+		54B067EC22B6EBF4002BBCAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54B067C622B6EBF2002BBCAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B067D822B6EBF4002BBCAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B067E322B6EBF4002BBCAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54B067C022B6EBF2002BBCAA = {
+			isa = PBXGroup;
+			children = (
+				54B067CB22B6EBF2002BBCAA /* SleepyLid */,
+				54B067DE22B6EBF4002BBCAA /* SleepyLidTests */,
+				54B067E922B6EBF4002BBCAA /* SleepyLidUITests */,
+				54B067CA22B6EBF2002BBCAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54B067CA22B6EBF2002BBCAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54B067C922B6EBF2002BBCAA /* SleepyLid.app */,
+				54B067DB22B6EBF4002BBCAA /* SleepyLidTests.xctest */,
+				54B067E622B6EBF4002BBCAA /* SleepyLidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54B067CB22B6EBF2002BBCAA /* SleepyLid */ = {
+			isa = PBXGroup;
+			children = (
+				54B067CC22B6EBF2002BBCAA /* AppDelegate.swift */,
+				54B067CE22B6EBF2002BBCAA /* ViewController.swift */,
+				54B067D022B6EBF3002BBCAA /* Assets.xcassets */,
+				54B067D222B6EBF3002BBCAA /* Main.storyboard */,
+				54B067D522B6EBF3002BBCAA /* Info.plist */,
+			);
+			path = SleepyLid;
+			sourceTree = "<group>";
+		};
+		54B067DE22B6EBF4002BBCAA /* SleepyLidTests */ = {
+			isa = PBXGroup;
+			children = (
+				54B067DF22B6EBF4002BBCAA /* SleepyLidTests.swift */,
+				54B067E122B6EBF4002BBCAA /* Info.plist */,
+			);
+			path = SleepyLidTests;
+			sourceTree = "<group>";
+		};
+		54B067E922B6EBF4002BBCAA /* SleepyLidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54B067EA22B6EBF4002BBCAA /* SleepyLidUITests.swift */,
+				54B067EC22B6EBF4002BBCAA /* Info.plist */,
+			);
+			path = SleepyLidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54B067C822B6EBF2002BBCAA /* SleepyLid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54B067EF22B6EBF4002BBCAA /* Build configuration list for PBXNativeTarget "SleepyLid" */;
+			buildPhases = (
+				54B067C522B6EBF2002BBCAA /* Sources */,
+				54B067C622B6EBF2002BBCAA /* Frameworks */,
+				54B067C722B6EBF2002BBCAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepyLid;
+			productName = SleepyLid;
+			productReference = 54B067C922B6EBF2002BBCAA /* SleepyLid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54B067DA22B6EBF4002BBCAA /* SleepyLidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54B067F222B6EBF4002BBCAA /* Build configuration list for PBXNativeTarget "SleepyLidTests" */;
+			buildPhases = (
+				54B067D722B6EBF4002BBCAA /* Sources */,
+				54B067D822B6EBF4002BBCAA /* Frameworks */,
+				54B067D922B6EBF4002BBCAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54B067DD22B6EBF4002BBCAA /* PBXTargetDependency */,
+			);
+			name = SleepyLidTests;
+			productName = SleepyLidTests;
+			productReference = 54B067DB22B6EBF4002BBCAA /* SleepyLidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54B067E522B6EBF4002BBCAA /* SleepyLidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54B067F522B6EBF4002BBCAA /* Build configuration list for PBXNativeTarget "SleepyLidUITests" */;
+			buildPhases = (
+				54B067E222B6EBF4002BBCAA /* Sources */,
+				54B067E322B6EBF4002BBCAA /* Frameworks */,
+				54B067E422B6EBF4002BBCAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54B067E822B6EBF4002BBCAA /* PBXTargetDependency */,
+			);
+			name = SleepyLidUITests;
+			productName = SleepyLidUITests;
+			productReference = 54B067E622B6EBF4002BBCAA /* SleepyLidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54B067C122B6EBF2002BBCAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Henri;
+				TargetAttributes = {
+					54B067C822B6EBF2002BBCAA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					54B067DA22B6EBF4002BBCAA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 54B067C822B6EBF2002BBCAA;
+					};
+					54B067E522B6EBF4002BBCAA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 54B067C822B6EBF2002BBCAA;
+					};
+				};
+			};
+			buildConfigurationList = 54B067C422B6EBF2002BBCAA /* Build configuration list for PBXProject "SleepyLid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54B067C022B6EBF2002BBCAA;
+			productRefGroup = 54B067CA22B6EBF2002BBCAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54B067C822B6EBF2002BBCAA /* SleepyLid */,
+				54B067DA22B6EBF4002BBCAA /* SleepyLidTests */,
+				54B067E522B6EBF4002BBCAA /* SleepyLidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54B067C722B6EBF2002BBCAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B067D122B6EBF3002BBCAA /* Assets.xcassets in Resources */,
+				54B067D422B6EBF3002BBCAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B067D922B6EBF4002BBCAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B067E422B6EBF4002BBCAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54B067C522B6EBF2002BBCAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B067CF22B6EBF2002BBCAA /* ViewController.swift in Sources */,
+				54B067CD22B6EBF2002BBCAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B067D722B6EBF4002BBCAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B067E022B6EBF4002BBCAA /* SleepyLidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B067E222B6EBF4002BBCAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B067EB22B6EBF4002BBCAA /* SleepyLidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54B067DD22B6EBF4002BBCAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54B067C822B6EBF2002BBCAA /* SleepyLid */;
+			targetProxy = 54B067DC22B6EBF4002BBCAA /* PBXContainerItemProxy */;
+		};
+		54B067E822B6EBF4002BBCAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54B067C822B6EBF2002BBCAA /* SleepyLid */;
+			targetProxy = 54B067E722B6EBF4002BBCAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54B067D222B6EBF3002BBCAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54B067D322B6EBF3002BBCAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54B067ED22B6EBF4002BBCAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54B067EE22B6EBF4002BBCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		54B067F022B6EBF4002BBCAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SleepyLid/SleepyLid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SleepyLid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hp.SleepyLid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		54B067F122B6EBF4002BBCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SleepyLid/SleepyLid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SleepyLid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hp.SleepyLid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		54B067F322B6EBF4002BBCAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SleepyLidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hp.SleepyLidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepyLid.app/Contents/MacOS/SleepyLid";
+			};
+			name = Debug;
+		};
+		54B067F422B6EBF4002BBCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SleepyLidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hp.SleepyLidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepyLid.app/Contents/MacOS/SleepyLid";
+			};
+			name = Release;
+		};
+		54B067F622B6EBF4002BBCAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SleepyLidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hp.SleepyLidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SleepyLid;
+			};
+			name = Debug;
+		};
+		54B067F722B6EBF4002BBCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SleepyLidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hp.SleepyLidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SleepyLid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54B067C422B6EBF2002BBCAA /* Build configuration list for PBXProject "SleepyLid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B067ED22B6EBF4002BBCAA /* Debug */,
+				54B067EE22B6EBF4002BBCAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54B067EF22B6EBF4002BBCAA /* Build configuration list for PBXNativeTarget "SleepyLid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B067F022B6EBF4002BBCAA /* Debug */,
+				54B067F122B6EBF4002BBCAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54B067F222B6EBF4002BBCAA /* Build configuration list for PBXNativeTarget "SleepyLidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B067F322B6EBF4002BBCAA /* Debug */,
+				54B067F422B6EBF4002BBCAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54B067F522B6EBF4002BBCAA /* Build configuration list for PBXNativeTarget "SleepyLidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B067F622B6EBF4002BBCAA /* Debug */,
+				54B067F722B6EBF4002BBCAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54B067C122B6EBF2002BBCAA /* Project object */;
+}
